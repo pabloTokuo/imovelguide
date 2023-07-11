@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imóvel Guide</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+</head>
+
+<body>
+  <!-- NAVIGATION BAR -->
+  <header>
+    <nav class="nav-bar">
+      <div class="container-lista">
+        <div class="container-logo">
+          <img src="imgs/logo.png" alt="Imóvel Guide Logo">
+        </div>
+        <div id="burger-menu">
+          <span></span>
+          <aside id="menu">
+            <ul>
+              <li><a href="">Condomínios</a></li>
+              <li><a href="">Fórum</a></li>
+              <li><a href="">Guia</a></li>
+            </ul>
+          </aside>
+        </div>
+        <div class="lista1">
+          <a href="#">Condomínios</a>
+          <a href="#">Fórum</a>
+          <a href="#">Guia</a>
+          <a href="#">Artigos</a>
+          <a href="#">Ferramentas</a>
+        </div>
+        <div class="lista2">
+          <a href="#">Cotar Imóvel</a>
+          <a href="#">Planos</a>
+          <a href="#">Entrar</a>
+        </div>
+        <div class="cadastro">
+          <a href="#">Cadastre-se</a>
+        </div>
+      </div>
+      <div></div>
+    </nav>
+  </header>
+
+  <!-- CORRETORES -->
+  <div class="containers">
+    <div class="container-corretores">
+      <div class="container-corretora">
+        <div class="container-imgs">
+          <img class="imagem-normal" src="imgs/pessoa1.jpg" alt="Imagem da Corretora">
+          <img class="blurred-image" src="imgs/pessoa1.jpg" alt="Imagem da Corretora">
+        </div>
+
+        <div class="container-info">
+          <h2>Nome Corretora</h2>
+          <p>3.000 pontos</p>
+          <a href="#" class="telefone-corretora">ver telefone</a>
+        </div>
+      </div>
+
+      <div class="container-corretora">
+        <div class="container-imgs">
+          <img class="blurred-image" src="imgs/pessoa2.jpg" alt="Imagem da Corretora">
+          <img class="imagem-normal" src="imgs/pessoa2.jpg" alt="Imagem da Corretora">
+        </div>
+
+        <div class="container-info">
+          <h2>Nome Corretor</h2>
+          <p>1.260 pontos</p>
+          <a href="#" class="telefone-corretor">ver telefone</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- MENSAGEM -->
+    <div class="container-mensagem">
+      <h2>Mande uma mensagem:</h2>
+      <div class="container-form">
+        <form>
+          <input class="form-cpf" type="text" placeholder="Digite seu CPF" maxlength="14">
+          <input class="form-telefone" type="tel" placeholder="Digite seu telefone" maxlength="15">
+          <textarea class="form-text" name="mensagem" cols="30" rows="10" placeholder="Digite o assunto"></textarea>
+        </form>
+        <button class="form-button">Enviar Mensagem</button>
+      </div>
+    </div>
+
+    <!-- REGRA DE 3 -->
+    <div class="container-regra3">
+      <h2>Regra de 3</h2>
+      <div class="container-inputs">
+        <form>
+          <input type="text" class="inputX">
+          <input type="text" class="input2">
+        </form>
+        <form>
+          <input type="text" class="input3">
+          <input type="text" class="valor-input">
+        </form>
+      </div>
+      <button class="calcular-button">Calcular</button>
+    </div>
+
+    <!-- MODAL -->
+    <div class="container-modal">
+      <div class="popup-img">
+        <img src="imgs/casa.jpg" alt="Logo casa modal">
+      </div>
+      <div class="popimg">
+        <span>&times;</span>
+        <img src="imgs/casa.jpg" alt="Logo casa modal">
+      </div>
+      <button class="modal-button">Abrir imagem no modal</button>
+    </div>
+
+    <!-- Canvas -->
+    <div class="container-canvas">
+      <div class="canvas-img">
+        <img src="imgs/casa.jpg" alt="">
+        <p class="canvas-text">Imovel Guide</p>
+      </div>
+      <button class="canvas-download">Download</button>
+    </div>
+
+    <!-- Zoom IMG -->
+    <div class="container-zoom">
+      <div class="zoom-img">
+        <img src="imgs/casa.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container-footer">
+      <div class="container-termos">
+        <a href="#">Termos</a>
+        <a href="#">Contatos</a>
+        <a href="#">Sobre</a>
+      </div>
+      <div class="container-copy">
+        <p>© Copyright 2022. Todos os direitos reservados.</p>
+      </div>
+      <img src="imgs/logo.png" alt="Logo Imóvel Guide">
+    </div>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
